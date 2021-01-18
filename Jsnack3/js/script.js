@@ -73,7 +73,7 @@ $(document).ready(function() {
       zucchineLunghe.push(zucchine[i]);
       sommaPesoLunghe += zucchine[i].peso;
     } else {
-      zucchineCorte.push([i]);
+      zucchineCorte.push(zucchine[i]);
       sommaPesoCorte += zucchine[i].peso;
     }
   }
